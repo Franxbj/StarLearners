@@ -44,38 +44,7 @@ img {
 h1 {
     text-align: center;
 }
-.flex-container {
-    max-width: 1000px;
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    margin: 10px auto;
-}
 
-@media (max-width: 600px)
-{
-    .flex-container
-    {
-        display: block;
-    }
-    
-}
-.about-us {
-    background-color: #f3b7b7;
-    padding: 10px 14px;
-}
-
-.references {
-    background-color: #F9F8F8;
-    padding: 10px 14px;
-}
-h4{
-    font-size: 12px;
-    text-align: center;
-}
-#right{    
- float: right;  
- }  
  .icon-bar {
   position: fixed;
   top: 50%;
@@ -160,8 +129,26 @@ h4{
   background: #ccc;
 }
 
-
- 
+.align-self-end{
+            background-color: #F9F8F8;
+        }
+        h2{
+            font-size: 5px;
+            font-weight: bold;
+        }
+        .col{
+          padding-top: 8px;
+          padding-bottom: 8px;
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+     
+        }
+        .align-self-center{
+            background-color: #F9F8F8;
+            
+        }
+        .row{
+          padding: 8px;
+        }
     </style>
 
     <!-- Required meta tags -->
@@ -184,10 +171,10 @@ h4{
         <div class="topnav">
             <a class="active" href="starlearners.html">HOME</a>
             <a href="enrollment.html">ENROLLMENT</a>
-            <a href="#contact">TEACHERS</a>
-            <a href="#contact">PARENTS</a>
-            <a href="#about">CONTACT US</a>
-            <a href="#about">SEARCH</a>
+            <a href="#teachers">TEACHERS</a>
+            <a href="#parents">PARENTS</a>
+            <a href="WebsiteProject_ContactUsPage.html">CONTACT US</a>
+            <a href="#search">SEARCH</a>
             <div class="search-container">
                 <form action="/action_page.php">
                   <input type="text" placeholder="Search..." name="search">
@@ -197,39 +184,39 @@ h4{
           </div>
 <br><br>
         <div id="main">
-            <h1>Welcome to Star Learners Pre-School</h1>
+            <h1>WELCOME TO STAR LEARNERS PRE-SCHOOL</h1>
             <p></p>
         </div>
       </div>  <!-- /page -->
-      <br><br>
-      <div class="news flex-container">
+      
+      <div class="container">
         <div class="row">
-            <div class="col-md-6">
-                <div class="news news1">
-                    <img src="https://images.unsplash.com/photo-1588075592446-265fd1e6e76f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fHByZXNjaG9vbHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" width=450px height=450px>
-                    <p></p>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="row about-us">
-                    <h3>ABOUT US</h3>
-                    <p>Adipiscing elit. Lorem ipsum dolor sit amet, consectetur dolor sit amet adipiscing 
-                        elit.</p>
-                        <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniaa commodo consequat.” - Ms Nancy
-                            “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim v commodo consequat.” - Mr. Brian.</p>
-                </div>
-            </div>
-                <div class="col-md-6">
-                    <div class="row references">
-                        <h3>REFERENCES</h3>
-                        <p>Adipiscing elit. Lorem ipsum dolor sit amet, consectetur dolor sit amet adipiscing 
-                            elit.</p>
-                            <p>A“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniaa commodo consequat.” - Ms Nancy
-                                “tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim v commodo consequat.” - Mr. Brian</p>
-                    </div>
-                </div>    
-            </div> <!-- news row -->
+        <div class="col">
+    <img src="https://images.unsplash.com/photo-1588075592446-265fd1e6e76f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fHByZXNjaG9vbHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="delightful daisy" width=100% style=margin:5px>
+</div>
+
+<div class="col">
+    <div class="container1">
+        <div class="row">
+          <div class="col align-self-center">
+            <h2>ABOUT US</h2>
+            <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was po</p>
+          </div>
+          <div class="w-100"></div>
+          <br>
+          <div class="col align-self-end">
+              <h2>REFERENCES</h2>
+            <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+          </div>
         </div>
+      </div>
+        </div>
+      </div>
+</div>
+</div>
+
+</div>
+      </div>
         
         <br><br>
 

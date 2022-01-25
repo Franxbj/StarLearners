@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Star Learners Pre-School</title>
+    <title>Contact Us</title>
     
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -52,6 +52,7 @@
 
    h1 {
        text-align: center;
+       
    }
    .flex-container {
        max-width: 1000px;
@@ -162,35 +163,37 @@
        display: flex;
        background-color: #F9F8F8;
        font-size: 30px;
-       text-align: center;
+       text-align: left;
        align-items: center;
        justify-content: center;
+       max-width: 1000px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: 10px auto;
    }
 
    .Flex-Container2 > div
    {
        margin: 10px;
        padding: 20px;
-       font-size: 30px;
-   }
-
-   
-   img
-   {
-    border-radius: 50%;
-
+       font-size: 16px;
    }
 
     .button 
     {
     /* Align buttons with the text fields */
-    padding-left: 70px; /* same size as the label elements */
+    padding-left: 60px; /* same size as the label elements */
     }button 
     {
     /* This extra margin represent roughly the same space as the space
     between the labels and their text fields */
-    margin-left: 0.5em;
+    margin-left: 1em;
     background-color: #56A0E3;
+    box-sizing: border-box; /* Match form field borders */
+    border: 1px solid #56A0E3;
+    color: white;
+    font: 12px;
     } textarea 
     {
     vertical-align: top;
@@ -225,6 +228,9 @@
     {
         padding: 8px;
     }
+    h4 {
+      text-align: center;
+    }
         </style>
     <header>
         <logo>
@@ -239,7 +245,7 @@
             <a href="enrollment.html">ENROLLMENT</a>
             <a href="#teachers">TEACHERS</a>
             <a href="#parents">PARENTS</a>
-            <a class="active" href="#contactus">CONTACT US</a>
+            <a class="active" href="WebsiteProject_ContactUsPage.html">CONTACT US</a>
             <a href="#about">SEARCH</a>
             <div class="search-container">
                 <form action="/action_page.php">
@@ -253,14 +259,14 @@
             <h1>CONTACT US</h1>
             <p></p>
         
-        <br><br>
+        <br>
         <div id="2nd-Main">
             <div class="Flex-Container2">
             <br>
             <div>
                 <img src = "https://png.pngitem.com/pimgs/s/80-803648_address-icon-png-black-vector-clipart-psd-address.png" alt=addressimage style="width: 50px">
-                <p>
-                    ADDRESS
+                <p><br>
+                    <b>ADDRESS</b>
                     <br>
                     Vankanlahde 9,
                     <br>
@@ -271,45 +277,46 @@
                     Hameenlinna,
                     <br>
                     Finland
-                    <br>
+                    <br><br><br>
+                    <b>Direction</b>
                 </p>
             </div>
             <div>
                 <img src = "https://www.passionjewellers.com/wp-content/uploads/2018/09/phone-png-phone-png-file-1969.png" alt=phoneimage style="width: 50px">
-                <p>
-                    REGISTRAR
+                <p><br>
+                    <b>REGISTRAR</b>
                     <br>
                     046 333 1234
-                    <br>
+                    <br><br>
 
-                    HEADMASTER
+                    <b>HEADMASTER</b>
                     <br>
                     046 333 1235
-                    <br>
+                    <br><br>
 
-                    SCHOOL NURSE
+                    <b>SCHOOL NURSE</b>
                     <br>
                     046 333 1236
-                    <br>
+                    <br><br>
                 </p>
             </div>
             <div>
                 <img src = "https://png.pngitem.com/pimgs/s/11-118773_email-free-icon-png-email-transparent-png.png" alt=emailimage style="width: 50px">
-                <p>
-                    REGISTRAR
+                <p><br>
+                  <b>REGISTRAR</b>
                     <br>
                     registrar@star.learners.fi
-                    <br>
+                    <br><br>
 
-                    HEADMASTER
+                    <b>HEADMASTER</b>
                     <br>
                     admin@star.learners.fi
-                    <br>
+                    <br><br>
 
-                    SCHOOL NURSE
+                    <b>SCHOOL NURSE</b>
                     <br>
                     nurse@star.learners.fi
-                    <br>
+                    <br><br>
                 </p>
             </div>
 
@@ -317,13 +324,14 @@
         </div>
         </div>
         <br>
-        <br>
+        
 
         <div class="Flex-Container3">
             <div class = "row">
                 <div class = "col">
-                <h4>Inquires</h4>
+                <h4>Inquires</h4><br>
                 </div>
+
                 <div class = "row">    
         <form action="/action_page.php" id="form1">
             <label for="fname">First name:</label>
@@ -346,7 +354,7 @@
             
             
             <div class="button">
-            <button type="submit">Send</button>
+            <button type="submit">SEND</button>
             </div>
         </div>
     </div>
